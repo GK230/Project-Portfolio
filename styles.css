@@ -79,32 +79,40 @@
   
   #projects-wrapper {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
     margin-top: 5%;
+    margin-left: 22.5%;
   }
   
   .project-tile {
-    width: 40%;
-    height: 50%;
-    padding: 5%;
+    width: 75%;
+    height: 55%;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2%;
   }
   
   .project-image {
-    width: 100%;
-    margin-bottom: 3%;
+    width: 90%;
+    margin-bottom: 1%;
     margin-top: 3%;
+    text-align: center;
   
   }
   
   
   .project-label {
-    position: relative;
+    width: 90%;
+    margin-bottom: 1%;
+
+
+
   }
   
   h3 {
-    margin-left: 1%;
     font-family: sans-serif;
     font-size: 1em;
   }
