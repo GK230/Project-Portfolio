@@ -71,7 +71,7 @@
   }
   
   
-  #projects-main {
+  #projects-title, #contact-title {
     font-family: sans-serif;
     font-size: 3em;
     text-align: center;
@@ -85,7 +85,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 5%;
-    /* margin-left: %; */
   }
   
   .project-tile {
@@ -104,6 +103,23 @@
     margin-top: 3%;
     text-align: center;
   
+  }
+
+  #code-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .projects-link {
+    text-align: center;
+    display: inline;
+  }
+
+  #my-email {
+    text-align: center;
+    padding-bottom: 5%;
   }
   
   
