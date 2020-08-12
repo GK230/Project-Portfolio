@@ -76,6 +76,7 @@
     font-size: 3em;
     text-align: center;
     margin-top: 5%;
+    
   }
   
   #projects-wrapper {
@@ -88,7 +89,7 @@
   }
   
   .project-tile {
-    width: 30%;
+    width: 27%;
     height: 55%;
     background-color: lightgrey;
     display: flex;
@@ -107,13 +108,14 @@
   
   
   .project-label {
-    width: 90%;
+    width: 95%;
     margin-bottom: 3%;
+    margin-left: 4%;
   }
   
   h3 {
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
 
   }
 
