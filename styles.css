@@ -15,6 +15,7 @@
   
   .main-nav {
     text-decoration: none;
+    font-size: 1.3em;
   }
   
   ul {
@@ -30,6 +31,12 @@
     padding-right: 5px;
     font-family: sans-serif;
     font-size: 1.5em;
+  }
+
+  a {
+    text-decoration: none;
+    padding-right: 5px;
+    font-size: 1.2rem;
   }
   
   #card {
@@ -66,13 +73,32 @@
     left: 30%;
     font-size: 1.5em;
   }
+
+#about {
+  display: grid;
+  place-content: center;
+}
+
+  .about-text, .about-sub-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .about-text {
+    font-size: 1.2em;
+    width: 80vw;
+  }
+
+  .about-sub-title {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
   
   #projects {
     margin-top: 1%;
   }
   
   
-  #projects-title, #contact-title {
+  #projects-title, #contact-title, #about-title {
     font-family: sans-serif;
     font-size: 3em;
     text-align: center;
@@ -132,31 +158,20 @@
   
   h3 {
     font-family: sans-serif;
-    font-size: 0.9em;
+    font-size: 1.3em;
 
   }
 
-  a {
-    padding-right: 5px;
-
+  .my-contact {
+    font-weight: normal;
+    text-align: center;
   }
+
+
   
   
   
   
   
   
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {...}
   
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {...}
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {...}
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {...}
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {...}
